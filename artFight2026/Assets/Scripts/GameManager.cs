@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
     public int score;
     [SerializeField] private TMP_Text scoreCounter;
 
+    [SerializeField] private GameObject gameUI;
+    [SerializeField] private GameObject gamblingGallery;
+
     void Start()
     {
         gameTimeLeft = 30;
@@ -28,13 +31,15 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
+        scoreCounter.text = score.ToString();
+
         if (spawningBugs)
         {
 
             gameTimeLeft = gameTimeLeft - Time.deltaTime;
             timeCounter.text = gameTimeLeft.ToString("0");
 
-            scoreCounter.text = score.ToString();
 
             changingSpawnRates();
 
@@ -55,15 +60,17 @@ public class GameManager : MonoBehaviour
     //this activates after clicking "PLAY" button
     public void startSpawning()
     {
+        gameUI.SetActive(true);
+        gameTimeLeft = 30;
         spawningBugs = true;
-        timeBetweenSpawns = 3f;
+        timeBetweenSpawns = 1.8f;
         playButton.SetActive(false);
     }
 
     private void spawnABug()
     {
         //randomizes spawn location
-        var position = new Vector3(Random.Range(-8.0f, 8.0f), Random.Range(-4.0f, 4.0f), 0);
+        var position = new Vector3(Random.Range(-7.5f, 7.5f), Random.Range(-3.5f, 3.05f), 0);
 
         Instantiate(bug, position, Quaternion.identity);
     }
@@ -78,30 +85,32 @@ public class GameManager : MonoBehaviour
     private void changingSpawnRates()
     {
         //changing spawn rate depending on the time of the game
-        if (15 < gameTimeLeft && gameTimeLeft < 20)
+        if (18 < gameTimeLeft && gameTimeLeft < 26)
         {
             timeBetweenSpawns = 1f;
         }
 
-        else if (10 < gameTimeLeft && gameTimeLeft < 15)
+        else if (10 < gameTimeLeft && gameTimeLeft < 18)
         {
             timeBetweenSpawns = 0.5f;
         }
 
-        else if (5 < gameTimeLeft && gameTimeLeft < 10)
+        else if (7 < gameTimeLeft && gameTimeLeft < 10)
         {
-            timeBetweenSpawns = 0.3f;
+            timeBetweenSpawns = 0.4f;
         }
 
-        else if (gameTimeLeft < 5)
+        else if (gameTimeLeft < 7)
         {
-            timeBetweenSpawns = 0.1f;
+            timeBetweenSpawns = 0.35f;
         }
     }
 
     private void endGame()
     {
         spawningBugs = false;
+        gameUI.SetActive(false);
+        gamblingGallery.SetActive(true);
     }
 
 }

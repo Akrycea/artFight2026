@@ -165,6 +165,8 @@ public class Prizes : MonoBehaviour
         basicPrizes.Remove(basicPrizes[chosenBasicPrize]);
         gameManager.score = gameManager.score - 30;
 
+        FindObjectWithSpriteName(spriteRenderer.sprite.name);
+
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
     }
@@ -175,6 +177,8 @@ public class Prizes : MonoBehaviour
         spriteRenderer.sprite = SPrizes[chosenSPrize];
         SPrizes.Remove(SPrizes[chosenSPrize]);
         gameManager.score = gameManager.score - 30;
+
+        FindObjectWithSpriteName(spriteRenderer.sprite.name);
 
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
@@ -187,6 +191,8 @@ public class Prizes : MonoBehaviour
         SSPrizes.Remove(SSPrizes[chosenSSPrize]);
         gameManager.score = gameManager.score - 30;
 
+        FindObjectWithSpriteName(spriteRenderer.sprite.name);
+
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
     }
@@ -197,4 +203,31 @@ public class Prizes : MonoBehaviour
         isBusyGivingPrize = false;
         spriteRenderer.sprite = ogSprite;
     }
+
+
+
+    public GameObject FindObjectWithSpriteName(string targetSpriteName)
+    {
+        // Gather all GameObjects (including inactive ones) in the scene
+        GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+
+        foreach (GameObject obj in allObjects)
+        {
+            // Ensure the object has a SpriteRenderer component
+            SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();
+
+            // Check if the SpriteRenderer exists and if the sprite name matches
+            if (spriteRenderer != null && spriteRenderer.sprite != null)
+            {
+                if (spriteRenderer.sprite.name == targetSpriteName)
+                {
+                    spriteRenderer.enabled = true; // Enable the SpriteRenderer
+                }
+            }
+        }
+
+        return null; // Not found
+    }
+
+
 }

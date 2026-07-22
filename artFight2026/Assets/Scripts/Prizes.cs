@@ -221,7 +221,7 @@ public class Prizes : MonoBehaviour
             {
                 if (spriteRenderer.sprite.name == targetSpriteName)
                 {
-                    spriteRenderer.enabled = true; // Enable the SpriteRenderer
+                    spriteRenderer.color = new Color32(255, 255, 255, 255);
                 }
             }
         }

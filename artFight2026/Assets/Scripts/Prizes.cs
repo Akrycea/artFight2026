@@ -214,7 +214,7 @@ public class Prizes : MonoBehaviour
         foreach (GameObject obj in allObjects)
         {
             // Ensure the object has a SpriteRenderer component
-            SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();
+            Image spriteRenderer = obj.GetComponent<Image>();
 
             // Check if the SpriteRenderer exists and if the sprite name matches
             if (spriteRenderer != null && spriteRenderer.sprite != null)

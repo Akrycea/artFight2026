@@ -16,9 +16,9 @@ public class Prizes : MonoBehaviour
     [SerializeField] Sprite ogSprite;
 
     [SerializeField] private Button gamblingButton;
-    [SerializeField] private GameObject playButton;
+    [SerializeField] private GameObject menuUI;
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private GameObject prizes;
+    //[SerializeField] private GameObject prizes;
 
     private bool isBusyGivingPrize = false;
 
@@ -27,7 +27,7 @@ public class Prizes : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = ogSprite;
-                playButton.SetActive(true);
+        menuUI.SetActive(true);
         gamblingGallery.SetActive(false);
     }
 
@@ -46,7 +46,7 @@ public class Prizes : MonoBehaviour
 
     public void exitPrizes()
     {
-        playButton.SetActive(true);
+        menuUI.SetActive(true);
         gamblingGallery.SetActive(false);
     }
     public void Gamble()

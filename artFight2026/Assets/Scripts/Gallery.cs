@@ -25,8 +25,9 @@ public class Gallery : MonoBehaviour
         gameObject.SetActive(true);
         PrizesUI.SetActive(false);
 
-        if( PrizesUI != null)
+        if( PrizesUI.active == true)
         {
+            Debug.Log("prize is active");
             gameObject.SetActive(true);
             PrizesUI.SetActive(false);
             GameUI.SetActive(false);
@@ -34,6 +35,7 @@ public class Gallery : MonoBehaviour
         }
         else
         {
+            Debug.Log("menu is active");
             gameObject.SetActive(true);
             MenuUI.SetActive(false);
             GameUI.SetActive(false);

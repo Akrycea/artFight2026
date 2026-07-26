@@ -6,8 +6,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject bug;
 
-    [SerializeField] private GameObject playButton;
-    [SerializeField] private GameObject galButton;
+    [SerializeField] private GameObject menuUI;
 
     [SerializeField] private bool spawningBugs = false;
 
@@ -65,8 +64,7 @@ public class GameManager : MonoBehaviour
         gameTimeLeft = 30;
         spawningBugs = true;
         timeBetweenSpawns = 1.8f;
-        playButton.SetActive(false);
-        galButton.SetActive(false);
+        menuUI.SetActive(false);
     }
 
     private void spawnABug()

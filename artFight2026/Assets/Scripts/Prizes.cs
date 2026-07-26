@@ -61,23 +61,6 @@ public class Prizes : MonoBehaviour
         int chosenTier = UnityEngine.Random.Range(0, 10);
         if (chosenTier == 0 || chosenTier == 1)
         {
-            //if (SSPrizes.Count - 1 != -1)
-            //{
-            //    chooseSSTierPrize();
-            //}
-            //else if (SPrizes.Count - 1 != -1)
-            //{
-            //    chooseSTierPrize();
-            //}
-            //else if (basicPrizes.Count - 1 != -1)
-            //{
-            //    chooseBasicPrize();
-            //}
-            //else if (basicPrizes.Count - 1 == -1 && basicPrizes.Count - 1 == -1 && basicPrizes.Count - 1 == -1)
-            //{
-            //    Debug.Log("no more prizes to win!");
-            //}
-
             if (SSPrizes.Count == 0)
             {
 

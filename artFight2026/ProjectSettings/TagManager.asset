@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Bug
+  - Prize
   layers:
   - Default
   - TransparentFX

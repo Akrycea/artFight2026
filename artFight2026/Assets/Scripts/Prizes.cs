@@ -44,7 +44,7 @@ public class Prizes : MonoBehaviour
         }
     }
 
-    public void exitGallery()
+    public void exitPrizes()
     {
         playButton.SetActive(true);
         gamblingGallery.SetActive(false);

@@ -3,6 +3,8 @@ using UnityEngine;
 public class Gallery : MonoBehaviour
 {
     [SerializeField] private GameObject PrizesUI;
+    [SerializeField] private GameObject MenuUI;
+    [SerializeField] private GameObject GameUI;
     [SerializeField] private GameObject[] Pages;
     [SerializeField] private int currentPageIndex = 0;
     [SerializeField] private int totalPages = 0;
@@ -19,6 +21,8 @@ public class Gallery : MonoBehaviour
 
     }
 
+    private bool fromPrizes = false;
+    private bool fromMenu = false;
     public void OpenGallery()
     {
         // Logic to open the gallery
@@ -26,6 +30,21 @@ public class Gallery : MonoBehaviour
 
         gameObject.SetActive(true);
         PrizesUI.SetActive(false);
+
+        if( PrizesUI != null)
+        {
+            gameObject.SetActive(true);
+            PrizesUI.SetActive(false);
+            GameUI.SetActive(false);
+            fromPrizes =true;
+        }
+        else
+        {
+            gameObject.SetActive(true);
+            MenuUI.SetActive(false);
+            GameUI.SetActive(false);
+            fromMenu =true;
+        }
     }
 
     public void CloseGallery()
@@ -33,9 +52,21 @@ public class Gallery : MonoBehaviour
         // Logic to close the gallery
         Debug.Log("Gallery closed.");
 
-        gameObject.SetActive(false);
-        PrizesUI.SetActive(true);
+        if (fromPrizes)
+        {
+            gameObject.SetActive(false);
+            PrizesUI.SetActive(true);
+            GameUI.SetActive(true);
+            fromPrizes=false;
+        }
+        else if (fromMenu)
+        {
+            gameObject.SetActive(false);
+            MenuUI.SetActive(true);
+            fromMenu =false;
+        }
     }
+
 
     public void LeftPage()
     {

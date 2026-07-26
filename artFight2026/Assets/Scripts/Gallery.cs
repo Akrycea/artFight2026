@@ -15,12 +15,6 @@ public class Gallery : MonoBehaviour
         totalPages = Pages.Length;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private bool fromPrizes = false;
     private bool fromMenu = false;
     public void OpenGallery()

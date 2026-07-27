@@ -11,7 +11,7 @@ public class AutoWin : MonoBehaviour
     {
         Debug.Log("doing auto win");
         // Gather all GameObjects (including inactive ones) in the scene
-        GameObject[] allObjects = GameObject.FindGameObjectsWithTag("Prize");
+        GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
         foreach (GameObject obj in allObjects)
         {
             Debug.Log("found obejcts:" + obj.name);
@@ -19,7 +19,7 @@ public class AutoWin : MonoBehaviour
             Image spriteRenderer = obj.GetComponent<Image>();
 
             // Check if the SpriteRenderer exists and if the sprite name matches
-            if (spriteRenderer != null && spriteRenderer.sprite != null)
+            if (spriteRenderer != null && spriteRenderer.sprite != null && obj.CompareTag("Prize"))
             {
                 Debug.Log("changing color");
                 spriteRenderer.color = new Color32(255, 255, 255, 255);

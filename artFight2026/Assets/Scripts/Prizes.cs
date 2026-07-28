@@ -18,7 +18,8 @@ public class Prizes : MonoBehaviour
     [SerializeField] private Button gamblingButton;
     [SerializeField] private GameObject menuUI;
     [SerializeField] private GameManager gameManager;
-    //[SerializeField] private GameObject prizes;
+
+    Animator animator;
 
     private bool isBusyGivingPrize = false;
 
@@ -29,6 +30,7 @@ public class Prizes : MonoBehaviour
         spriteRenderer.sprite = ogSprite;
         menuUI.SetActive(true);
         gamblingGallery.SetActive(false);
+        animator = GetComponent<Animator>();
     }
 
 
@@ -182,9 +184,11 @@ public class Prizes : MonoBehaviour
 
     private IEnumerator waitToGivePrize()
     {
+        animator.Play("PrizeAnimation");
         yield return new WaitForSeconds(3);
         isBusyGivingPrize = false;
         spriteRenderer.sprite = ogSprite;
+        animator.Play("New State");
     }
 
 

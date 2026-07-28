@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject menuUI;
 
-    [SerializeField] private bool spawningBugs = false;
+    public bool spawningBugs = false;
 
     [SerializeField] private float gameTimeLeft = 30f;
     [SerializeField] private TMP_Text timeCounter;

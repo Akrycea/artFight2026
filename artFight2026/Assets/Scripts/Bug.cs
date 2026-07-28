@@ -41,7 +41,7 @@ public class Bug : MonoBehaviour
     {
         timeToDisappear = timeToDisappear - Time.deltaTime;
 
-        if(timeToDisappear <= 0)
+        if(timeToDisappear <= 0 || !gameManager.spawningBugs)
         {
             Destroy(gameObject);
         }

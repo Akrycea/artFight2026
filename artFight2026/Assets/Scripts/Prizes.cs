@@ -19,7 +19,11 @@ public class Prizes : MonoBehaviour
     [SerializeField] private GameObject menuUI;
     [SerializeField] private GameManager gameManager;
 
+    //for prize win animations
     Animator animator;
+    [SerializeField] private Animator basicAnim;
+    [SerializeField] private Animator SAnim;
+    [SerializeField] private Animator SSAnim;
 
     private bool isBusyGivingPrize = false;
 
@@ -151,6 +155,7 @@ public class Prizes : MonoBehaviour
         gameManager.score = gameManager.score - 30;
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
+        basicAnim.Play("AuraAnimation");
 
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
@@ -164,6 +169,7 @@ public class Prizes : MonoBehaviour
         gameManager.score = gameManager.score - 30;
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
+        SAnim.Play("AuraAnimation");
 
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
@@ -177,6 +183,7 @@ public class Prizes : MonoBehaviour
         gameManager.score = gameManager.score - 30;
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
+        SSAnim.Play("AuraAnimation");
 
         //here we can do whatever we want with the chosen prize
         //change prizes gallery bool to show this one
@@ -189,6 +196,9 @@ public class Prizes : MonoBehaviour
         isBusyGivingPrize = false;
         spriteRenderer.sprite = ogSprite;
         animator.Play("New State");
+        basicAnim.Play("New State");
+        SAnim.Play("New State");
+        SSAnim.Play("New State");
     }
 
 

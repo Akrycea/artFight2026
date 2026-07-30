@@ -3,9 +3,25 @@ using UnityEngine.UI;
 
 public class AutoWin : MonoBehaviour
 {
+    [SerializeField] private GameObject PopUp;
+    [SerializeField] private static bool galleryUcovered = false;
+
+    public void openPopUp()
+    {
+        if (!galleryUcovered)
+        {
+            PopUp.SetActive(true);
+        }
+    }
+    public void closePopUp()
+    {
+        PopUp.SetActive(false);
+    }
     public void autoWin()
     {
         Win();
+        PopUp.SetActive(false);
+        galleryUcovered = true;
     }
     public GameObject Win()
     {

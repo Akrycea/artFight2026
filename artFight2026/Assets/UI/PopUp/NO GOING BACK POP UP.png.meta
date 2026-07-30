@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 04bf87b61cecdfa439f1aee55bd81611
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1410575086321163111
+    second: NO GOING BACK POP UP_0
+  - first:
+      213: -74518770567774518
+    second: NO GOING BACK POP UP_1
+  - first:
+      213: -2422793339305042797
+    second: NO GOING BACK POP UP_2
+  - first:
+      213: -4504148257017849304
+    second: NO GOING BACK POP UP_3
+  - first:
+      213: 5708728191147424511
+    second: NO GOING BACK POP UP_4
+  - first:
+      213: 2606073581725251618
+    second: NO GOING BACK POP UP_5
+  - first:
+      213: 3078809505729803498
+    second: NO GOING BACK POP UP_6
+  - first:
+      213: 3181904739308378204
+    second: NO GOING BACK POP UP_7
+  - first:
+      213: -6397744750108466112
+    second: NO GOING BACK POP UP_8
+  - first:
+      213: 2406481676201260945
+    second: NO GOING BACK POP UP_9
+  - first:
+      213: 6738877329349592612
+    second: NO GOING BACK POP UP_10
+  - first:
+      213: 4912475174262352943
+    second: NO GOING BACK POP UP_11
+  - first:
+      213: 9124887714853834991
+    second: NO GOING BACK POP UP_12
+  - first:
+      213: 1957391332057810293
+    second: NO GOING BACK POP UP_13
+  - first:
+      213: -4917315639501875204
+    second: NO GOING BACK POP UP_14
+  - first:
+      213: 2606349891992217712
+    second: NO GOING BACK POP UP_15
+  - first:
+      213: 4447095976800361743
+    second: NO GOING BACK POP UP_16
+  - first:
+      213: 3082437692047869893
+    second: NO GOING BACK POP UP_17
+  - first:
+      213: 3320648001935676602
+    second: NO GOING BACK POP UP_18
+  - first:
+      213: -1019350827790359546
+    second: NO GOING BACK POP UP_19
+  - first:
+      213: -7840723562773219061
+    second: NO GOING BACK POP UP_20
+  - first:
+      213: -4268449210024510332
+    second: NO GOING BACK POP UP_21
+  - first:
+      213: 4017065515724242539
+    second: NO GOING BACK POP UP_22
+  - first:
+      213: -1755854760795726940
+    second: NO GOING BACK POP UP_23
+  - first:
+      213: 3932437308556397143
+    second: NO GOING BACK POP UP_24
+  - first:
+      213: 1985950098933109262
+    second: NO GOING BACK POP UP_25
+  - first:
+      213: 841678971489202471
+    second: NO GOING BACK POP UP_26
+  - first:
+      213: -5639974516115858871
+    second: NO GOING BACK POP UP_27
+  - first:
+      213: 3719550619152853739
+    second: NO GOING BACK POP UP_28
+  - first:
+      213: 835489615871625483
+    second: NO GOING BACK POP UP_29
+  - first:
+      213: -6162328044159805936
+    second: NO GOING BACK POP UP_30
+  - first:
+      213: 6260882840502704501
+    second: NO GOING BACK POP UP_31
+  - first:
+      213: -8709442545979283716
+    second: NO GOING BACK POP UP_32
+  - first:
+      213: 3586351388887275595
+    second: NO GOING BACK POP UP_33
+  - first:
+      213: -9043073432192424822
+    second: NO GOING BACK POP UP_34
+  - first:
+      213: 6661601771812396633
+    second: NO GOING BACK POP UP_35
+  - first:
+      213: -6675891913209466561
+    second: NO GOING BACK POP UP_36
+  - first:
+      213: -6499556859786394256
+    second: NO GOING BACK POP UP_37
+  - first:
+      213: -5484077081973720439
+    second: NO GOING BACK POP UP_38
+  - first:
+      213: 1740143564122055196
+    second: NO GOING BACK POP UP_39
+  - first:
+      213: 3596090285028506977
+    second: NO GOING BACK POP UP_40
+  - first:
+      213: 5990625097993772025
+    second: NO GOING BACK POP UP_41
+  - first:
+      213: -4748331896966921874
+    second: NO GOING BACK POP UP_42
+  - first:
+      213: -7481568095593791177
+    second: NO GOING BACK POP UP_43
+  - first:
+      213: -6526608345564869917
+    second: NO GOING BACK POP UP_44
+  - first:
+      213: -3313224531733186071
+    second: NO GOING BACK POP UP_45
+  - first:
+      213: 4505415054760182781
+    second: NO GOING BACK POP UP_46
+  - first:
+      213: -3001314767339559046
+    second: NO GOING BACK POP UP_47
+  - first:
+      213: 1481127833180363811
+    second: NO GOING BACK POP UP_48
+  - first:
+      213: 5435199579795360829
+    second: NO GOING BACK POP UP_49
+  - first:
+      213: 1916621057429324586
+    second: NO GOING BACK POP UP_50
+  - first:
+      213: 5734330683719681081
+    second: NO GOING BACK POP UP_51
+  - first:
+      213: 6314572702235428678
+    second: NO GOING BACK POP UP_52
+  - first:
+      213: -2294748624224186917
+    second: NO GOING BACK POP UP_53
+  - first:
+      213: 1989437382746662817
+    second: NO GOING BACK POP UP_54
+  - first:
+      213: 124690218313785663
+    second: NO GOING BACK POP UP_55
+  - first:
+      213: 6968945664034642760
+    second: NO GOING BACK POP UP_56
+  - first:
+      213: -200625576812183920
+    second: NO GOING BACK POP UP_57
+  - first:
+      213: 2888258876487424228
+    second: NO GOING BACK POP UP_58
+  - first:
+      213: 5445018037874150872
+    second: NO GOING BACK POP UP_59
+  - first:
+      213: 3025805651821889270
+    second: NO GOING BACK POP UP_60
+  - first:
+      213: -207928841519465062
+    second: NO GOING BACK POP UP_61
+  - first:
+      213: -3765491049380878811
+    second: NO GOING BACK POP UP_62
+  - first:
+      213: -9138083901904705364
+    second: NO GOING BACK POP UP_63
+  - first:
+      213: 6665973803026031428
+    second: NO GOING BACK POP UP_64
+  - first:
+      213: 6421011847172319245
+    second: NO GOING BACK POP UP_65
+  - first:
+      213: 4188334871645495521
+    second: NO GOING BACK POP UP_66
+  - first:
+      213: -3889842895616935142
+    second: NO GOING BACK POP UP_67
+  - first:
+      213: -7471494707803458551
+    second: NO GOING BACK POP UP_68
+  - first:
+      213: -4208206976237511233
+    second: NO GOING BACK POP UP_69
+  - first:
+      213: -302413065434116626
+    second: NO GOING BACK POP UP_70
+  - first:
+      213: -5063756217510111408
+    second: NO GOING BACK POP UP_71
+  - first:
+      213: 8518152313578003458
+    second: NO GOING BACK POP UP_72
+  - first:
+      213: -1104606954173096227
+    second: NO GOING BACK POP UP_73
+  - first:
+      213: -712420182755851577
+    second: NO GOING BACK POP UP_74
+  - first:
+      213: -5469089727486554175
+    second: NO GOING BACK POP UP_75
+  - first:
+      213: -5368688919551703645
+    second: NO GOING BACK POP UP_76
+  - first:
+      213: -5836191031977732113
+    second: NO GOING BACK POP UP_77
+  - first:
+      213: -5407480471437924375
+    second: NO GOING BACK POP UP_78
+  - first:
+      213: 6918869039119552972
+    second: NO GOING BACK POP UP_79
+  - first:
+      213: -5310198881469540811
+    second: NO GOING BACK POP UP_80
+  - first:
+      213: 3901663941195396301
+    second: NO GOING BACK POP UP_81
+  - first:
+      213: 8861994911304554080
+    second: NO GOING BACK POP UP_82
+  - first:
+      213: 1264459734209832299
+    second: NO GOING BACK POP UP_83
+  - first:
+      213: -257222211720699576
+    second: NO GOING BACK POP UP_84
+  - first:
+      213: -2706321120662115052
+    second: NO GOING BACK POP UP_85
+  - first:
+      213: -1635791748160452168
+    second: NO GOING BACK POP UP_86
+  - first:
+      213: -4083912947740173005
+    second: NO GOING BACK POP UP_87
+  - first:
+      213: 7985306566794405654
+    second: NO GOING BACK POP UP_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NO GOING BACK POP UP_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137
+        width: 1052
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff011a3d487e12346ac27b41b256eea6
+      internalID: 1237312098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NO GOING BACK POP UP_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 22
+        width: 200
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e693655c5aac244a805fa238e9e5d9
+      internalID: 1868544492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NO GOING BACK POP UP_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 29
+        width: 180
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c13cbcbae28de4cb1d6e9851b99722
+      internalID: 2018482696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 39d323177c9efc243b0914ddaa913932
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NO GOING BACK POP UP_0: 1237312098
+      NO GOING BACK POP UP_1: 1868544492
+      NO GOING BACK POP UP_2: 2018482696
+      NO GOING BACK POP UP_89: 2018102007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

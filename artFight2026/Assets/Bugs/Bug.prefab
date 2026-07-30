@@ -87,7 +87,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &-299071621139493056
@@ -105,10 +105,17 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   timeToDisappear: 0
   sprites:
-  - {fileID: 960516664, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
-  - {fileID: 960516664, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
-  - {fileID: 1558873677, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
-  - {fileID: 1558873677, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
+  - {fileID: 7339783585258574842, guid: 15299182c982a1d4db6beb7487d0d1b4, type: 3}
+  - {fileID: -2002468294098303067, guid: 15299182c982a1d4db6beb7487d0d1b4, type: 3}
+  - {fileID: -4454303910841939141, guid: 15299182c982a1d4db6beb7487d0d1b4, type: 3}
+  - {fileID: 8274568280522839090, guid: 15299182c982a1d4db6beb7487d0d1b4, type: 3}
+  - {fileID: -302817947239973996, guid: 4f6e4cf6773f15f4aac4eb5dcc58025c, type: 3}
+  - {fileID: 1411047073195137411, guid: 4f6e4cf6773f15f4aac4eb5dcc58025c, type: 3}
+  - {fileID: -8458918102990116487, guid: 4f6e4cf6773f15f4aac4eb5dcc58025c, type: 3}
+  - {fileID: 1620614395961957850, guid: 4f6e4cf6773f15f4aac4eb5dcc58025c, type: 3}
+  - {fileID: 6690781886812196747, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
+  - {fileID: 2226275842626731924, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
+  - {fileID: 2226275842626731924, guid: 5bce9a78735d5d04586939a307f972ba, type: 3}
 --- !u!50 &-3083046992660898453
 Rigidbody2D:
   serializedVersion: 5

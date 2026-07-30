@@ -28,12 +28,14 @@ public class Prizes : MonoBehaviour
     private bool isBusyGivingPrize = false;
 
     [SerializeField] private GameObject gamblingGallery;
+    [SerializeField] private Gallery gallery;
+
+    //for when there are no more prizes to win
+    [SerializeField] private Sprite outOfPrizes;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = ogSprite;
-        menuUI.SetActive(true);
-        gamblingGallery.SetActive(false);
         animator = GetComponent<Animator>();
     }
 
@@ -52,6 +54,7 @@ public class Prizes : MonoBehaviour
 
     public void exitPrizes()
     {
+        gallery.fromPrizes = false;
         menuUI.SetActive(true);
         gamblingGallery.SetActive(false);
     }
@@ -75,6 +78,7 @@ public class Prizes : MonoBehaviour
                     if (basicPrizes.Count == 0)
                     {
                         Debug.Log("no more prizes to win!");
+                        spriteRenderer.sprite = outOfPrizes;
                     }
                     else
                     {
@@ -101,6 +105,7 @@ public class Prizes : MonoBehaviour
                     if (basicPrizes.Count == 0)
                     {
                         Debug.Log("no more prizes to win!");
+                        spriteRenderer.sprite = outOfPrizes;
                     }
                     else
                     {
@@ -126,6 +131,7 @@ public class Prizes : MonoBehaviour
                     if (SSPrizes.Count == 0)
                     {
                         Debug.Log("no more prizes to win!");
+                        spriteRenderer.sprite = outOfPrizes;
                     }
                     else
                     {
@@ -156,9 +162,6 @@ public class Prizes : MonoBehaviour
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
         basicAnim.Play("AuraAnimation");
-
-        //here we can do whatever we want with the chosen prize
-        //change prizes gallery bool to show this one
     }
 
     private void chooseSTierPrize()
@@ -170,9 +173,6 @@ public class Prizes : MonoBehaviour
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
         SAnim.Play("AuraAnimation");
-
-        //here we can do whatever we want with the chosen prize
-        //change prizes gallery bool to show this one
     }
 
     private void chooseSSTierPrize()
@@ -184,9 +184,6 @@ public class Prizes : MonoBehaviour
 
         FindObjectWithSpriteName(spriteRenderer.sprite.name);
         SSAnim.Play("AuraAnimation");
-
-        //here we can do whatever we want with the chosen prize
-        //change prizes gallery bool to show this one
     }
 
     private IEnumerator waitToGivePrize()

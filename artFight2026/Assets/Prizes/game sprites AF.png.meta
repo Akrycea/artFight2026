@@ -5,6 +5,48 @@ TextureImporter:
   - first:
       213: -8434790996777578043
     second: game sprites AF_0
+  - first:
+      213: 6690781886812196747
+    second: game sprites AF_1
+  - first:
+      213: 1235447758925797406
+    second: game sprites AF_2
+  - first:
+      213: 2107237586405276416
+    second: game sprites AF_3
+  - first:
+      213: -2131972264056605849
+    second: game sprites AF_4
+  - first:
+      213: -3376337813183905904
+    second: game sprites AF_5
+  - first:
+      213: -3530026980038350332
+    second: game sprites AF_6
+  - first:
+      213: -4151790589726451196
+    second: game sprites AF_7
+  - first:
+      213: 4031287343630292531
+    second: game sprites AF_8
+  - first:
+      213: -8291756017314089533
+    second: game sprites AF_9
+  - first:
+      213: -5232990895442092517
+    second: game sprites AF_10
+  - first:
+      213: -7641367134362335296
+    second: game sprites AF_11
+  - first:
+      213: 2618723691037895647
+    second: game sprites AF_12
+  - first:
+      213: -1950533877001939737
+    second: game sprites AF_13
+  - first:
+      213: 2226275842626731924
+    second: game sprites AF_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,12 +145,12 @@ TextureImporter:
       name: game sprites AF_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1629
-        width: 475
-        height: 538
+        x: 35
+        y: 1115
+        width: 399
+        height: 514
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,20 +167,20 @@ TextureImporter:
       name: game sprites AF_1
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1632
-        width: 473
-        height: 532
+        x: 505
+        y: 1112
+        width: 439
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 541ab7f374e825142afd0f64407c296e
-      internalID: 960516664
+      spriteID: b8f0f014dae6adc50800000000000000
+      internalID: 6690781886812196747
       vertices: []
       indices: 
       edges: []
@@ -147,20 +189,20 @@ TextureImporter:
       name: game sprites AF_2
       rect:
         serializedVersion: 2
-        x: 965
-        y: 1633
-        width: 466
-        height: 532
+        x: 991
+        y: 1115
+        width: 433
+        height: 511
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1a13c267628bf7046b06829546e885fa
-      internalID: 1687170817
+      spriteID: e181359e031352110800000000000000
+      internalID: 1235447758925797406
       vertices: []
       indices: 
       edges: []
@@ -169,20 +211,20 @@ TextureImporter:
       name: game sprites AF_3
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 1633
-        width: 468
-        height: 534
+        x: 1455
+        y: 1120
+        width: 441
+        height: 510
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c1d4867ec8063bf4ebde75cee6c8d143
-      internalID: -1428353496
+      spriteID: 00bb9039b696e3d10800000000000000
+      internalID: 2107237586405276416
       vertices: []
       indices: 
       edges: []
@@ -191,20 +233,20 @@ TextureImporter:
       name: game sprites AF_4
       rect:
         serializedVersion: 2
-        x: 1924
-        y: 1632
-        width: 465
-        height: 532
+        x: 1973
+        y: 1114
+        width: 355
+        height: 496
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4aa510aadee110c4f9be382d9e04309b
-      internalID: 1288024283
+      spriteID: 763bbe18586b962e0800000000000000
+      internalID: -2131972264056605849
       vertices: []
       indices: 
       edges: []
@@ -213,20 +255,20 @@ TextureImporter:
       name: game sprites AF_5
       rect:
         serializedVersion: 2
-        x: 2402
-        y: 1632
-        width: 471
-        height: 535
+        x: 2488
+        y: 1107
+        width: 314
+        height: 523
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d38ece750e2c6464fbf2a126b58c3d93
-      internalID: -265240567
+      spriteID: 09f3473c5a6d421d0800000000000000
+      internalID: -3376337813183905904
       vertices: []
       indices: 
       edges: []
@@ -235,20 +277,20 @@ TextureImporter:
       name: game sprites AF_6
       rect:
         serializedVersion: 2
-        x: 2884
-        y: 1634
-        width: 471
-        height: 532
+        x: 2939
+        y: 1109
+        width: 409
+        height: 518
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 005b6cc2fd9f7dd47ae84401c7e6c3bc
-      internalID: 1937512600
+      spriteID: 40ae44f1a23d20fc0800000000000000
+      internalID: -3530026980038350332
       vertices: []
       indices: 
       edges: []
@@ -257,20 +299,20 @@ TextureImporter:
       name: game sprites AF_7
       rect:
         serializedVersion: 2
-        x: 2885
-        y: 1093
-        width: 468
-        height: 531
+        x: 28
+        y: 569
+        width: 389
+        height: 516
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 51311b62aaea4f2418fea3ca4fe34843
-      internalID: -443919854
+      spriteID: 40a9b8da470e166c0800000000000000
+      internalID: -4151790589726451196
       vertices: []
       indices: 
       edges: []
@@ -279,20 +321,20 @@ TextureImporter:
       name: game sprites AF_8
       rect:
         serializedVersion: 2
-        x: 2404
-        y: 1091
-        width: 473
-        height: 532
+        x: 540
+        y: 572
+        width: 334
+        height: 507
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 10e73eafc79b84940a0a820f70dd884f
-      internalID: -331229442
+      spriteID: 3369c98fa7202f730800000000000000
+      internalID: 4031287343630292531
       vertices: []
       indices: 
       edges: []
@@ -301,20 +343,20 @@ TextureImporter:
       name: game sprites AF_9
       rect:
         serializedVersion: 2
-        x: 1922
-        y: 1091
-        width: 473
-        height: 530
+        x: 977
+        y: 577
+        width: 404
+        height: 502
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 68fbb62d9e40b5f49bcc3403f06ec111
-      internalID: -568828715
+      spriteID: 3c539c775d3cdec80800000000000000
+      internalID: -8291756017314089533
       vertices: []
       indices: 
       edges: []
@@ -323,20 +365,20 @@ TextureImporter:
       name: game sprites AF_10
       rect:
         serializedVersion: 2
-        x: 1441
-        y: 1091
-        width: 470
-        height: 533
+        x: 1458
+        y: 564
+        width: 413
+        height: 530
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: db39ac77686d0f44e9959736134eb37d
-      internalID: -84318952
+      spriteID: b1e1254918ea067b0800000000000000
+      internalID: -5232990895442092517
       vertices: []
       indices: 
       edges: []
@@ -345,20 +387,20 @@ TextureImporter:
       name: game sprites AF_11
       rect:
         serializedVersion: 2
-        x: 963
-        y: 1093
-        width: 470
-        height: 531
+        x: 1976
+        y: 573
+        width: 362
+        height: 515
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9c56e8d0a6d271242a66e18b94f38314
-      internalID: 1365234804
+      spriteID: 0c70df5b31964f590800000000000000
+      internalID: -7641367134362335296
       vertices: []
       indices: 
       edges: []
@@ -367,20 +409,20 @@ TextureImporter:
       name: game sprites AF_12
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1091
-        width: 471
-        height: 530
+        x: 2477
+        y: 567
+        width: 344
+        height: 522
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fdc429f66229a3b4096c20e0c96a8a6b
-      internalID: -669638415
+      spriteID: fdba6398253975420800000000000000
+      internalID: 2618723691037895647
       vertices: []
       indices: 
       edges: []
@@ -389,20 +431,20 @@ TextureImporter:
       name: game sprites AF_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1094
-        width: 473
-        height: 529
+        x: 2952
+        y: 568
+        width: 355
+        height: 501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3c87dd7a6ec301a4087a77d64be345e5
-      internalID: -106222307
+      spriteID: 7e41fe2f5cf4ee4e0800000000000000
+      internalID: -1950533877001939737
       vertices: []
       indices: 
       edges: []
@@ -411,20 +453,20 @@ TextureImporter:
       name: game sprites AF_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 555
-        width: 473
-        height: 527
+        x: 61
+        y: 34
+        width: 325
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5ae0913bb51d0bf4c8b8001cbaa32598
-      internalID: 1558873677
+      spriteID: 49fbcc3651255ee10800000000000000
+      internalID: 2226275842626731924
       vertices: []
       indices: 
       edges: []
@@ -433,7 +475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 61d7bb3fc23bbaa4fb0b97e74c4fd419
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -442,21 +484,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      game sprites AF_1: 960516664
-      game sprites AF_10: -84318952
-      game sprites AF_11: 1365234804
-      game sprites AF_12: -669638415
-      game sprites AF_13: -106222307
-      game sprites AF_14: 1558873677
-      game sprites AF_2: 1687170817
-      game sprites AF_3: -1428353496
-      game sprites AF_4: 1288024283
-      game sprites AF_5: -265240567
-      game sprites AF_6: 1937512600
-      game sprites AF_7: -443919854
-      game sprites AF_8: -331229442
-      game sprites AF_9: -568828715
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ public class Gallery : MonoBehaviour
         totalPages = Pages.Length;
     }
 
-    private bool fromPrizes = false;
+    public bool fromPrizes = false;
     private bool fromMenu = false;
     public void OpenGallery()
     {
@@ -25,13 +25,12 @@ public class Gallery : MonoBehaviour
         gameObject.SetActive(true);
         PrizesUI.SetActive(false);
 
-        if( PrizesUI.active == true)
+        if(fromPrizes == true)
         {
             Debug.Log("prize is active");
             gameObject.SetActive(true);
             PrizesUI.SetActive(false);
             GameUI.SetActive(false);
-            fromPrizes =true;
         }
         else
         {
@@ -52,8 +51,6 @@ public class Gallery : MonoBehaviour
         {
             gameObject.SetActive(false);
             PrizesUI.SetActive(true);
-            GameUI.SetActive(true);
-            fromPrizes=false;
         }
         else if (fromMenu)
         {

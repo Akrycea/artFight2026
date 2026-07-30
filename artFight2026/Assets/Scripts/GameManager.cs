@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject bug;
 
     [SerializeField] private GameObject menuUI;
+    [SerializeField] private GameObject ScoreUI;
 
     public bool spawningBugs = false;
 
@@ -21,7 +22,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text scoreCounter;
 
     [SerializeField] private GameObject gameUI;
-    [SerializeField] private GameObject gamblingGallery;
+    [SerializeField] private GameObject prizeGallery;
+
+    [SerializeField] private Gallery gallery;
 
     void Start()
     {
@@ -60,11 +63,15 @@ public class GameManager : MonoBehaviour
     //this activates after clicking "PLAY" button
     public void startSpawning()
     {
+        if (ScoreUI.activeSelf == false)
+        {
+            ScoreUI.SetActive(true);
+        }
+        menuUI.SetActive(false);
         gameUI.SetActive(true);
         gameTimeLeft = 30;
         spawningBugs = true;
         timeBetweenSpawns = 1.8f;
-        menuUI.SetActive(false);
     }
 
     private void spawnABug()
@@ -108,9 +115,11 @@ public class GameManager : MonoBehaviour
 
     private void endGame()
     {
+        Debug.Log("ending game");
         spawningBugs = false;
+        gallery.fromPrizes = true;
         gameUI.SetActive(false);
-        gamblingGallery.SetActive(true);
+        prizeGallery.SetActive(true);
     }
 
 }
